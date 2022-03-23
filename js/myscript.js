@@ -5,7 +5,16 @@
     colore preferito
     
     genera pwd:
-    nomecognomecolorepreferito21
+    nomecognomecolorepreferito + numero random
+
+
+    flowchart code:
+    
+    A[start]-->B[richiesta del nome]
+    B-->C[richiesta del cognome]
+    C-->D[richiesta del colore preferito]
+    D-->E[creazione della password]
+    E-->stop
 */
 
 let userName = prompt('Qual è il tuo nome?');
