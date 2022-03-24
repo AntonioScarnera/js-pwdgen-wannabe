@@ -28,4 +28,8 @@ console.log(userFavColor);
 
 document.getElementById('saluto').innerHTML += ' '+userName+userSurname+' ! ';
 
+document.getElementById('pwd').innerHTML += ' '+userName+userSurname+userFavColor+'21';
+
+/*
 document.getElementById('pwd').innerHTML += ' '+userName+userSurname+userFavColor+Math.floor(Math.random() * 100);
+*/
